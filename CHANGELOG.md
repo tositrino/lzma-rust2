@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.14.4 - unreleased
+## 0.15.0 - 2025-11-29
+
+### Changed
+
+- Breaking change: `LzipReader::new()` does not return a `Return` type anymore, but only itself.
 
 ### Fixed
 
